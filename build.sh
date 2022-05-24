@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -ex
 
+#git clone https://github.com/sraoss/pgsql-ivm.git
+
 #docker build -t pgivm:14 -f Dockerfile .
 docker build -f Dockerfile.dev -t pgivm-dev:14 .
 
